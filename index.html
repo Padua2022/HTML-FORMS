@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h5 class="heading">HIGH TENSION</h5>
+    <form action="">
+        <div class="form">
+           <div class="username">
+            <label for="username">USERNAME:</label>
+            <input type="username" placeholder="JOHN DOE" required>
+           </div>
+            <br>
+            <div class="email">
+               <label for="email">EMAIL:</label>
+               <input type="email"  name="email" id="email" required title="must be a valid email"> 
+            </div>
+            <br>
+            <label for="password">PASSWORD:</label>
+            <input type="password" pattern="[a-zA-Z0-9]" required>
+        </div>
+        <div class="sign-in"><button>sign-in</button></div>
+    </form>
+</body>
+</html>
